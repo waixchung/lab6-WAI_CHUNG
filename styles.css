@@ -1,0 +1,58 @@
+* { box-sizing: border-box; }
+
+h1, h2, h3 { font-family: Arial, sans-serif; }
+
+.encabezado { max-width: 720px; margin: 24px auto; display: flex; flex-direction: column; align-items: center;}
+.encabezado { background-color: #669720; width: 100%; max-width: none; margin: 0; padding: 24px 0; display: flex; flex-direction: column; align-items: center; } /* Centra el logo, hipervínculos y barra de búsqueda. */
+
+.nav-link { color: #ffffff; text-decoration: none; }
+
+main { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
+
+.menu-section { margin-bottom: 60px; }
+
+.menu-section h2 { text-align: center; margin-bottom: 25px; font-size: 28px; }
+
+/* Coloca las imágenes en 3 columnas */
+.menu-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+
+/* Aspecto de cartas para los menús */
+.menu-card { background-color: white; border-radius: 12px; overflow: hidden; border: 1px solid #ddd; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10); }
+
+/* Setea las propiedades de las imágenes */
+.menu-card img { width: 100%; height: 250px; object-fit: cover; display: block; }
+
+/* Deja un espacio debajo de cada imagen */
+.menu-info { padding: 20px; }
+
+.card { margin-bottom: 12px; padding: 8px; border: 1px solid #e0e0e0; }
+
+#complementario { max-width: 1200px; margin: 40px auto; padding: 20px; }
+
+#complementario h2 { margin-bottom: 20px; }
+
+.card { display: flex; align-items: center; gap: 20px; margin-bottom: 20px; padding: 15px; border: 1px solid #ddd; border-radius: 12px; background-color: white; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10); }
+
+.card img { width: 200px; height: 140px; object-fit: cover; border-radius: 8px; display: block; }
+
+.card-info { flex: 1; }
+
+.card-info h3 { margin-top: 0; margin-bottom: 10px; }
+
+.card-info p { margin: 0; line-height: 1.6; }
+
+table { width: 100%; border-collapse: collapse; margin-top: 20px; background-color: white; box-shadow: 0 4px 12px rgba(0,0,0,0.10); }
+
+caption { font-size: 20px; font-weight: bold; margin-bottom: 10px; }
+
+th,td { border: 1px solid #ddd; padding: 12px; }
+
+thead { background-color: #669720; color: white; }
+
+tbody tr:nth-child(even) { background-color: #f7f7f7; }
+
+tbody tr:hover { background-color: #eef5de; }
+
+tfoot { background-color: #e8e8e8; font-weight: bold; }
+
+video,audio,iframe { display: block; margin: 20px auto; }

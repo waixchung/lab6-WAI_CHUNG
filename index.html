@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="WAI CHUNG - 8-1095-511">
+    <meta name="description" content="Portal Web para la realización de pedidos y visualización de Menú de la cafetería de la UTP.">
+    <meta name="codigo_sesion" content="LAB6-V9S3">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cafetería Virtual UTP</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            }
+</style>
+
+</head>
+<body>
+    <header class="encabezado">
+        <a href="#">
+            <img src="LOGO_UTP.png" alt="Logo UTP" width="120">  
+        </a>
+
+        <h1>Portal de autoservicio - Cafetería UTP</h1>
+
+        <nav class="navbar">
+            <a href="#desayunos" class="nav-link">Menú de desayunos</a>
+            <a href="#almuerzos" class="nav-link">Menú de almuerzos</a>
+            <a href="#cenas" class="nav-link">Menú de cenas</a>
+            <a href="#pedidos" class="nav-link">Pedidos</a>
+        </nav>
+        
+    </header>  
+        
+    <div class="contenido-pagina">
+        <main id="ficha-5511" class="k-153dee">
+            <section id="desayunos">
+                <h2>Menú de Desayunos</h2>
+               
+                <div class="menu-grid">
+                    <article class="menu-card">
+                        <img src="desayuno1.png" alt="Desayuno 1" loading="lazy">
+
+                        <div class="menu-info">
+                            <h3>Desayuno típico</h3>
+                            <p>
+                                Huevos, tortilla, queso y acompañamientos.
+                            </p>
+                            <p>
+                                <strong>Precio: $3.00</strong>
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="menu-card">
+                        <img src="desayuno2.png" alt="Desayuno 2" loading="lazy">
+
+                        <div class="menu-info">
+                            <h3>Desayuno americano</h3>
+                            <p>
+                                Huevos, pan tostado, fruta y café.
+                            </p>
+                            <p>
+                                <strong>Precio: $3.50</strong>
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="menu-card">
+                        <img src="desayuno3.jpg" alt="Desayuno 3" loading="lazy">
+
+                        <div class="menu-info">
+                            <h3>Desayuno saludable</h3>
+                            <p>
+                                Frutas, yogurt, granola y jugo natural.
+                            </p>
+                            <p>
+                                <strong>Precio: $4.50</strong>
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </section>    
+
+            <section id="almuerzos">
+                <h2>Menú de Almuerzos</h2>
+                <p>
+                    Todos los platos incluyen bebida a escoger (Chicha o soda de lata).
+                </p>
+                
+                <div class="menu-grid">
+                    <article class="menu-card">
+                        <img src="almuerzo1.jpg" alt="Almuerzo 1" loading="lazy">
+
+                        <div class="menu-info">
+                            <h3>Almuerzo Tipico</h3>
+                            <p>
+                                Arroz con pollo y tajadas.
+                            </p>
+                            <p>
+                                <strong>Precio: $4.50</strong>
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="menu-card">
+                        <img src="almuerzo2.jpg" alt="Almuerzo 2" loading="lazy">
+
+                        <div class="menu-info">
+                            <h3>Burger con papas</h3>
+                            <p>
+                                Hamburguesa con carne angus, queso y vegetales, acompañada de papas fritas.
+                            </p>
+                            <p>
+                                <strong>Precio: $5.50</strong>
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="menu-card">
+                        <img src="almuerzo 3.jpg" alt="Almuerzo 3" loading="lazy">
+
+                        <div class="menu-info">
+                            <h3>Ensalada con pollo</h3>
+                            <p>
+                                Mezcla de vegetales frescos con pechuga de pollo a la plancha y aderezo.
+                            </p>
+                            <p>
+                                <strong>Precio: $6.50</strong>
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="cenas">
+                <h2>Menú de Cenas</h2>
+
+                <p>
+                    Todos los platos incluyen bebida a escoger (Chicha o soda de lata).
+                </p>
+                
+                <div class="menu-grid">
+                    <article class="menu-card">
+                        <img src="cena1.jpg" alt="Cena 1" loading="lazy">
+
+                        <div class="menu-info">
+                            <h3>Bistec Picado</h3>
+                            <p>
+                                Bistec picado con arroz y ensalada.
+                            </p>
+                            <p>
+                                <strong>Precio: $4.50</strong>
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="menu-card">
+                        <img src="cena2.jpg" alt="Cena 2" loading="lazy">
+
+                        <div class="menu-info">
+                            <h3>Pasta con carne</h3>
+                            <p>
+                                Espaguetis con salsa boloñesa.
+                            </p>
+                            <p>
+                                <strong>Precio: $5.50</strong>
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="menu-card">
+                        <img src="cena3.jpg" alt="Cena 3" loading="lazy">
+
+                        <div class="menu-info">
+                            <h3>Wrap pollo</h3>
+                            <p>
+                                Wrap de pollo con vegetales.
+                            </p>
+                            <p>
+                                <strong>Precio: $6.50</strong>
+                            </p>
+                        </div>
+                    </article>
+                </div>
+     
+            </section>
+
+            <section id="pedidos">
+ 
+                <h2>Pedidos</h2>
+                
+                    <fieldset>
+                    
+                        <legend>Información del cliente</legend>
+                    
+                        <label for="nombre">Nombre completo:</label>
+                        <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        placeholder="Ingrese su nombre"
+                        required
+                        maxlength="50"
+                        autofocus>
+                        
+                        <label for="correo">Correo electrónico:</label>
+                        <input
+                        type="email"
+                        id="correo"
+                        name="correo"
+                        placeholder="correo@ejemplo.com"
+                        required
+                        autocomplete="email">
+                        
+                        <label for="telefono">Teléfono:</label>
+                        <input
+                        type="tel"
+                        id="telefono"
+                        name="telefono"
+                        placeholder="6000-0000"
+                        minlength="8"
+                        maxlength="15">
+                        
+                        <label for="fecha">Fecha del pedido:</label>
+                        <input
+                        type="date"
+                        id="fecha"
+                        name="fecha"
+                        required>
+                    
+                    </fieldset>
+                
+                    <fieldset>
+                    
+                        <legend>Detalles del pedido</legend>
+                        
+                        <label for="menu">Menú deseado:</label>
+                        
+                        <input
+                        list="menus"
+                        id="menu"
+                        name="menu">
+                        
+                        <datalist id="menus">
+                        <option value="Desayuno típico">
+                        <option value="Burger con papas">
+                        <option value="Pasta con carne">
+                        </datalist>
+                        
+                        <label for="cantidad">Cantidad:</label>
+                        <input
+                        type="number"
+                        id="cantidad"
+                        name="cantidad"
+                        min="1"
+                        max="10"
+                        value="1">
+                        
+                        <label for="color">Color de bandeja:</label>
+                        <input
+                        type="color"
+                        id="color"
+                        name="color">
+                        
+                        <label>Tipo de pedido:</label>
+                        
+                        <input
+                        type="radio"
+                        id="llevar"
+                        name="tipo_pedido"
+                        value="llevar">
+                        
+                        <label for="llevar">
+                        Para llevar
+                        </label>
+                        
+                        <input
+                        type="radio"
+                        id="comer"
+                        name="tipo_pedido"
+                        value="comer">
+                        
+                        <label for="comer">
+                        Comer en cafetería
+                        </label>
+                        
+                        <label for="extras">
+                        Extras
+                        </label>
+                        
+                        <input
+                        type="checkbox"
+                        id="extras"
+                        name="extras">
+                        
+                        <label for="comentario">
+                        Comentarios
+                        </label>
+                        
+                        <textarea
+                        id="comentario"
+                        name="comentario"
+                        rows="5"
+                        placeholder="Escriba aquí los detalles de su pedido">
+                        </textarea>
+                        
+                        <label for="prioridad">
+                        Prioridad del pedido
+                        </label>
+                        
+                        <input
+                        type="range"
+                        id="prioridad"
+                        name="prioridad"
+                        min="1"
+                        max="5"
+                        step="1">
+                        
+                        <label for="sede">
+                        Sede
+                        </label>
+                        
+                        <select
+                        id="sede"
+                        name="sede">
+                        
+                        <option>Campus Central</option>
+                        
+                        <option>Campus Oeste</option>
+                        
+                        <option>Campus Chiriquí</option>
+                        
+                        </select>
+                    
+                    </fieldset>
+                
+                    <button type="submit">
+                    Enviar pedido
+                    </button>
+                
+                </form>
+                
+            </section>    
+
+            <section id="medios_pago">
+                <h2 style="text-align:center;">Tabla de medios de pago</h2>
+                <table>
+
+                <caption>Métodos de pago y beneficios disponibles</caption>
+                
+                <thead>
+                    <tr>
+                        <th scope="col">Servicio</th>
+                        <th scope="col">Detalle</th>
+                        <th scope="col">Estado</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <th scope="row">Efectivo</th>
+                        <td>Pago directo en caja</td>
+                        <td>Disponible</td>
+                    </tr>
+                
+                    <tr>
+                        <th scope="row">Tarjeta Débito</th>
+                        <td>Visa y Mastercard</td>
+                        <td>Disponible</td>
+                    </tr>
+                    
+                    <tr>
+                        <th scope="row">Tarjeta Crédito</th>
+                        <td>Visa y Mastercard</td>
+                        <td>Disponible</td>
+                    </tr>
+                    
+                    <tr>
+                        <th scope="row">Descuento Estudiantil</th>
+                        <td>Aplicable en promociones seleccionadas</td>
+                        <td>Activo</td>
+                    </tr>
+                </tbody>
+                
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Beneficios y servicios registrados</td>
+                        <td>4</td>
+                    </tr>
+                </tfoot>
+                
+                </table>
+                </section>
+
+                <section id="video_cafeteria">
+                    
+                    <h2 style="text-align:center;">Video informativo</h2>
+                    
+                    <video controls width="600">
+                    
+                        <source src="video/cafeteria Tu navegador no soporta videos HTML5".>
+                    
+                    </video>
+                
+                </section>
+
+                <section id="ubicacion">
+                <h2 style="text-align:center;">Ubicación de la Cafetería UTP</h2>
+                
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.4576404748746!2d-79.53458742554562!3d9.02194968910041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca83beefa4541%3A0x66a3755d549585b5!2sUniversidad%20Tecnol%C3%B3gica%20de%20Panam%C3%A1!5e0!3m2!1ses!2spa!4v1790264387864!5m2!1ses!2spa" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"
+                width="600"
+                height="450"
+                style="border:0;"
+                loading="lazy"
+                title="Mapa de ubicación de la Cafetería UTP"
+                allowfullscreen>
+                </iframe>
+                s
+                </section>
+
+        </main>    
+    
+
+        <aside id="Complementario">
+            <h2>Conoce más sobre nosotros</h2>
+
+            <article class="card">
+                <a href="#">
+                    <img src="personal_cafeteria.jpg" alt="Historia de la cafetería" loading="lazy">
+                </a>
+
+                <div class="card-info">
+                    <h3>Historia de la cafetería</h3>
+                    <p>
+                        Conoce cómo nació nuestra cafetería y cómo ha evolucionado
+                        hasta convertirse en parte de la comunidad universitaria.
+                    </p>
+                </div>
+            </article>
+
+            <article class="card">
+                <a href="#">
+                    <img src="cocina.jpg" alt="Proyectos futuros" loading="lazy">
+                </a>
+
+                <div class="card-info">
+                    <h3>Proyectos futuros</h3>
+                    <p>
+                        Descubre las mejoras y nuevos servicios que estamos preparando
+                        para ofrecer una mejor experiencia.
+                    </p>
+                </div>
+            </article>
+
+            <article class="card">
+                <a href="#">
+                    <img src="sugerencias.jpg" alt="Buzón de sugerencias" loading="lazy">
+                </a>
+
+                <div class="card-info">
+                    <h3>Buzón de sugerencias</h3>
+                    <p>
+                        Comparte tus ideas, comentarios y recomendaciones para ayudarnos
+                        a seguir mejorando.
+                    </p>
+                </div>
+            </article>
+
+            <article class="card">
+                <a href="#">
+                    <img src="cafeteria_utp.jpg" alt="Cafetería UTP" loading="lazy">
+                </a>
+
+                <div class="card-info">
+                    <h3>Información de la cafetería</h3>
+                    <dl>
+                    <dt>Ubicación</dt>
+                    <dd>Edificio principal de la UTP.</dd>
+                    <dt>Horario</dt>
+                    <dd>Lunes a Viernes de 6:30 A.M. a 8:00 P.M.</dd>
+                    <dt>Métodos de pago</dt>
+                    <dd>Efectivo, tarjeta de débito y tarjeta de crédito.</dd>
+                    </dl>
+
+                    <p>
+                        La
+                        <abbr title="Universidad Tecnológica de Panamá">UTP</abbr>
+                        promueve el consumo de alimentos preparados
+                        <em>al momento</em> para garantizar su frescura.
+                        </p>
+                        
+                        <p>
+                        Los productos identificados como
+                        <mark>Especial del día</mark>
+                        pueden variar según la disponibilidad.
+                        </p>
+                        
+                        <p>
+                        Última actualización del menú:
+                        <time datetime="2026-09-24">
+                        24 de septiembre de 2026
+                        </time>.
+                        </p>
+                        
+                        <p>
+                        <small>
+                        Los precios y promociones pueden cambiar sin previo aviso.
+                        </small>
+                        </p>
+                </div>
+            </article>
+
+            <details>
+
+                <figure>
+                    <img src="utp_cafeteria.jpg" alt="Cafetería UTP" loading="lazy">
+                    <figcaption>
+                    Cafetería UTP
+                    </figcaption>
+                </figure>
+                    <summary>Horarios y servicios de la cafetería</summary>
+                    <p>
+                    La cafetería ofrece servicio durante toda la jornada académica.
+                    </p>
+                    <ul>
+                    <li>Desayunos: 6:30 A.M. - 10:00 A.M.</li>
+                    <li>Almuerzos: 11:00 A.M. - 2:00 P.M.</li>
+                    <li>Cenas: 5:00 P.M. - 8:00 P.M.</li>
+                    </ul>
+            </details>
+        </aside>
+
+    </div>
+
+    <footer id="pie">
+        <ul>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Prensa</a></li>
+            <li><a href="#">Copyright</a></li>
+            <li><a href="#">Términos</a></li>
+            <li><a href="#">Privacidad</a></li>
+        </ul>
+
+        <p style="text-align:center;">
+            &copy; 2026 Cafetería Universitaria - Wai Chung
+        </p>
+    </footer>
+</body>    
+</html>
